@@ -21,9 +21,8 @@ export const Liste = () => {
                 <h3>Liste de tâches</h3>
                 <ul>
                     {/* map permet de pacourir tout les elements du tab et creer un nouveau tableau qui contient un li pour chaque tache   */}
-                    {taches.map((tache, i) => (
-                        // propriete unique grace tsk sur l'index de chaque tache du tab taches 
-                        <li tsk={i}>{tache}</li>
+                    {taches.map((tache) => (
+                        <li>{tache}</li>
                     ))}
                 </ul>
             {/* ajout de la fonction sur mon formualaire */}
