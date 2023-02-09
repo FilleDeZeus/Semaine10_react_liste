@@ -7,7 +7,7 @@ export const Liste = () => {
         //La nouvelle tache 
         const [newTache, setNewTache] = useState("");
 
-        //fonction qui va pemettre de rajoutr une nouvelle tache à la liste
+        //fonction qui va pemettre de rajouter une nouvelle tache à la liste
         const Ajout = (element) => {
             //annule le rechargement page
             element.preventDefault();
