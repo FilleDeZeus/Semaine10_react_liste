@@ -1,11 +1,10 @@
-import './App.css';
-
-function App() {
+import React from 'react'
+import { Liste } from './components/liste/liste'
+import './App.css'
+export const App = () => {
   return (
-    <div className="App">
-      
+    <div>
+      <Liste/>
     </div>
-  );
+  )
 }
-
-export default App;
